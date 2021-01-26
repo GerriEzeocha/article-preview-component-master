@@ -213,6 +213,7 @@ body {
     padding: 1.0625rem 1.875rem 1rem 1.875rem;
     border-bottom-left-radius: 0.6875rem;
     border-bottom-right-radius: 0.6875rem;
+    border-top-right-radius: 0;
   }
   .article-text .intro-text {
     font-weight: 700;
