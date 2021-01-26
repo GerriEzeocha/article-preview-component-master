@@ -1,0 +1,19 @@
+$veryDGBlue: hsl(217, 19%, 35%);
+$dsDarkBlue: hsl(214, 17%, 51%);
+$grayishBlue: hsl(212, 23%, 69%);
+$lGrayishBlue: hsl(210, 46%, 95%);
+
+/*screensizes*/
+$breakpoints: (
+    'phone': "640px",
+    'tablet': "768px",
+    'desktop': "1440px" 
+);
+
+@mixin breakpoints($size) {
+    @media (max-width: map-get($breakpoints , $size)){
+        @content;
+    }
+    
+}
+
