@@ -25,6 +25,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow-x: hidden;
 }
 
@@ -134,7 +140,7 @@ body {
     height: 2.3rem;
     padding: 0.625rem;
     position: relative;
-    right: -51.9rem;
+    right: -20.9rem;
     top: -9.3rem;
     background: #48556a;
     border-radius: 0.6rem;
@@ -162,7 +168,7 @@ body {
     border: 1.25rem solid transparent;
     border-color: #48556a;
     border-bottom: 0;
-    margin-left: -1.6875rem;
+    margin-left: -1.687rem;
     margin-bottom: -0.1875rem;
     -webkit-transform: rotate(44deg);
             transform: rotate(44deg);
@@ -171,9 +177,6 @@ body {
     display: none;
   }
   .attribution {
-    position: absolute;
-    bottom: 8rem;
-    left: 26rem;
     color: #9eafc2;
   }
   .attribution a {
